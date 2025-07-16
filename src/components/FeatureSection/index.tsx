@@ -10,8 +10,8 @@ const FeatureSection = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
             ),
-            title: "Hiệu Năng Cao",
-            description: "CPU Intel Xeon mới nhất với NVMe SSD cho tốc độ xử lý vượt trội.",
+            title: "Real-Time Responses",
+            description: "Lightning-fast AI responses with sub-second latency for seamless conversations.",
             gradient: "from-yellow-400 to-orange-500",
             bgGradient: "from-yellow-500/10 to-orange-500/10",
             borderColor: "border-yellow-500/20"
@@ -19,11 +19,11 @@ const FeatureSection = () => {
         {
             icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
             ),
-            title: "Bảo Mật Tuyệt Đối",
-            description: "DDoS Protection, Firewall và SSL Certificate miễn phí cho mọi VPS.",
+            title: "API Integration",
+            description: "Seamlessly integrate with your existing systems through our robust REST APIs.",
             gradient: "from-green-400 to-emerald-500",
             bgGradient: "from-green-500/10 to-emerald-500/10",
             borderColor: "border-green-500/20"
@@ -31,11 +31,11 @@ const FeatureSection = () => {
         {
             icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
                 </svg>
             ),
-            title: "Hỗ Trợ 24/7",
-            description: "Đội ngũ kỹ thuật chuyên nghiệp sẵn sàng hỗ trợ bạn mọi lúc.",
+            title: "Customizable UI",
+            description: "Fully customizable chat interface that matches your brand and website design.",
             gradient: "from-blue-400 to-cyan-500",
             bgGradient: "from-blue-500/10 to-cyan-500/10",
             borderColor: "border-blue-500/20"
@@ -43,11 +43,11 @@ const FeatureSection = () => {
         {
             icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
             ),
-            title: "Backup Tự Động",
-            description: "Hệ thống backup tự động hàng ngày đảm bảo dữ liệu luôn an toàn.",
+            title: "Analytics & Insights",
+            description: "Comprehensive analytics to track conversations and improve customer satisfaction.",
             gradient: "from-purple-400 to-pink-500",
             bgGradient: "from-purple-500/10 to-pink-500/10",
             borderColor: "border-purple-500/20"
@@ -55,11 +55,11 @@ const FeatureSection = () => {
         {
             icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
             ),
-            title: "Uptime 99.9%",
-            description: "Cam kết uptime 99.9% với hạ tầng datacenter tier-3 hiện đại.",
+            title: "24/7 Availability",
+            description: "Never miss a customer inquiry with round-the-clock AI support and monitoring.",
             gradient: "from-indigo-400 to-purple-500",
             bgGradient: "from-indigo-500/10 to-purple-500/10",
             borderColor: "border-indigo-500/20"
@@ -67,11 +67,11 @@ const FeatureSection = () => {
         {
             icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
             ),
-            title: "Giá Cả Hợp Lý",
-            description: "Gói VPS với mức giá cạnh tranh nhất thị trường, phù hợp mọi ngân sách.",
+            title: "Multi-Language Support",
+            description: "Communicate with customers in their preferred language with our multilingual AI.",
             gradient: "from-emerald-400 to-teal-500",
             bgGradient: "from-emerald-500/10 to-teal-500/10",
             borderColor: "border-emerald-500/20"
@@ -120,7 +120,7 @@ const FeatureSection = () => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         viewport={{ once: true }}
                     >
-                        Tính Năng Vượt Trội
+                        Powerful AI Features
                     </motion.h2>
                     <motion.p
                         className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
@@ -129,8 +129,8 @@ const FeatureSection = () => {
                         transition={{ duration: 0.8, delay: 0.4 }}
                         viewport={{ once: true }}
                     >
-                        CloudHub VPS mang đến những tính năng tiên tiến nhất với công nghệ hàng đầu,
-                        đảm bảo trải nghiệm hoàn hảo cho mọi nhu cầu của bạn.
+                        Experience the next generation of customer support with our AI chatbot's advanced capabilities,
+                        designed to enhance user engagement and streamline your business operations.
                     </motion.p>
                 </motion.div>
 
